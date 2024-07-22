@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\adity\\source\\repos\\Number_System\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|Number_System.vbproj|c:\\users\\adity\\source\\repos\\number_system\\vision_system.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|Number_System.vbproj|solutionrelative:vision_system.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|Number_System.vbproj|C:\\Users\\adity\\source\\repos\\Number_System\\vision_system.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|Number_System.vbproj|solutionrelative:vision_system.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Vision_System.vb",
+              "DocumentMoniker": "C:\\Users\\adity\\source\\repos\\Number_System\\Vision_System.vb",
+              "RelativeDocumentMoniker": "Vision_System.vb",
+              "ToolTip": "C:\\Users\\adity\\source\\repos\\Number_System\\Vision_System.vb",
+              "RelativeToolTip": "Vision_System.vb",
+              "ViewState": "AQIAAMUAAAAAAAAAAAASwNUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-20T10:17:38.378Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Vision_System.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\adity\\source\\repos\\Number_System\\Vision_System.vb",
+              "RelativeDocumentMoniker": "Vision_System.vb",
+              "ToolTip": "C:\\Users\\adity\\source\\repos\\Number_System\\Vision_System.vb [Design]",
+              "RelativeToolTip": "Vision_System.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-07-20T10:17:36.635Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
