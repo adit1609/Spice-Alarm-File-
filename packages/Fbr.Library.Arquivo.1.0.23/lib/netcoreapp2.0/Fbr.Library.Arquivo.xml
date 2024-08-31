@@ -1,0 +1,106 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Fbr.Library.Arquivo</name>
+    </assembly>
+    <members>
+        <member name="M:Fbr.Library.Arquivo.PDF.PDF.ConverterHTMLParaPDF(System.String,System.Int32,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            Método que converte uma página HTML (string) em PDF.
+            Utilizando library Select.HtmlToPdf.NetCore versão free (converte no máximo 5 páginas)
+            </summary>
+            <param name="html">string contendo HTML para ser convertido</param>
+            <param name="orientacaoPagina">Orientação da Página. 0 para Retrato; 1 para Paisagem;</param>
+            <param name="largura">Largura da página em pixels. Null para 1024px;</param>
+            <param name="altura">Altura da página em pixels. Null para altura automática</param>
+            <returns> Tuple com primeiro parâmetro true/false para sucesso na conversão, mensagem de erro (se erro) e o PDF em bytes (se sucesso) </returns>
+        </member>
+        <member name="M:Fbr.Library.Arquivo.Planilha.Planilha`1.GerarXLSX(System.Collections.Generic.IEnumerable{`0},System.String)">
+            <summary>
+            Método responsável por gerar array de bytes de um arquivo XLSX convertendo uma classe qualquer e gerando
+            a planilha de acordo com a classe. Cada atributo da classe se refere a uma coluna no excel ordenadas 
+            de acordo com a ordem dos atributos na classe. Voce pode utilizar anotation nos atributos de DisplayName para 
+            personalizar o nome das colunas no excel e não precisar sair do padrao de criacao de atributos em uma classe
+            </summary>
+            <example> 
+            Exemplo de classe
+            <code>
+            public class ClasseUsuario
+            {
+               [DisplayName("STATUS USUARIO")]
+               public string UserStatus { get; set; }
+                
+            }
+            </code>
+            </example>
+            <param name="entidade">Lista com uma entidade qualquer</param>
+            <typeparam name="IEnumerableTEntity"></typeparam>  
+            <param name="nomePlanilha"> string referente ao nome da planilha</param>
+            <typeparam name="string"></typeparam>  
+            <returns>retorna um array de bytes</returns>
+        </member>
+        <member name="M:Fbr.Library.Arquivo.Planilha.Planilha`1.GerarXLSXComSenha(System.Collections.Generic.IEnumerable{`0},System.String,System.String)">
+            <summary>
+            Método responsável por gerar array de bytes de um arquivo XLSX com senha, convertendo uma classe qualquer e gerando
+            a planilha de acordo com a classe. Cada atributo da classe se refere a uma coluna no excel ordenadas 
+            de acordo com a ordem dos atributos na classe. Voce pode utilizar anotation nos atributos de DisplayName para 
+            personalizar o nome das colunas no excel e não precisar sair do padrao de criacao de atributos em uma classe
+            </summary>
+            <example> 
+            Exemplo de classe
+            <code>
+            public class ClasseUsuario
+            {
+               [DisplayName("STATUS USUARIO")]
+               public string UserStatus { get; set; }
+                
+            }
+            </code>
+            </example>
+            <param name="entidade">Lista com uma entidade qualquer</param>
+            <typeparam name="IEnumerableTEntity"></typeparam>  
+            <param name="nomePlanilha"> string referente ao nome da planilha</param>
+            <typeparam name="string"></typeparam>  
+            <param name="senha"> string referente a senha de proteção da planilha</param>
+            <typeparam name="string"></typeparam>  
+            <returns>retorna um array de bytes</returns>
+        </member>
+        <member name="M:Fbr.Library.Arquivo.Upload.Services.UploadService.Enviar(Fbr.Library.Arquivo.Upload.Model.EnviarOpcoes)">
+            <summary>
+            Método responsável por realizar o upload do arquivo no diretório
+            </summary>
+            <param name="opcoes">Dados do arquivo a ser enviado</param>
+            <returns>Retorna um objeto com o status do envio, nome e diretório do arquivo.</returns>     
+        </member>
+        <member name="T:Fbr.Library.Arquivo.Upload.Upload">
+            <summary>
+                Upload de Arquivo
+            </summary>
+        </member>
+        <member name="M:Fbr.Library.Arquivo.Upload.Upload.#ctor">
+            <summary>
+                Construtor padrão.
+            </summary>
+        </member>
+        <member name="M:Fbr.Library.Arquivo.Util.ValidacaoPlanilha.ValidarColunasExcel(OfficeOpenXml.ExcelWorksheet,System.String[])">
+            <summary>
+            Método responsável por validar a ordem das abas de uma planilha em excel e se o número de colunas é válido
+            </summary>
+            <param name="tab">Tab da planilha em excel</param>
+            <typeparam name="ExcelWorksheet"></typeparam>  
+            <param name="columnsToValidate"> Array com o nome das colunas a serem validadas</param>
+            <typeparam name="string"></typeparam>  
+            <returns>retorna uma lista de string de colunas na posição errada ou número de colunas inválido.</returns>
+        </member>
+        <member name="M:Fbr.Library.Arquivo.Util.ValidacaoPlanilha.ValidarColunasPreenchidasExcel(OfficeOpenXml.ExcelWorksheet,System.String[])">
+            <summary>
+            Método responsável por validar a ordem das abas de uma planilha em excel que esteja preenchida
+            </summary>
+            <param name="tab">Tab da planilha em excel</param>
+            <typeparam name="ExcelWorksheet"></typeparam>  
+            <param name="columnsToValidate"> Array com o nome das colunas a serem validadas</param>
+            <typeparam name="string"></typeparam>  
+            <returns>retorna uma lista de string de colunas na posição errada.</returns>
+        </member>
+    </members>
+</doc>

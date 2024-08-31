@@ -1,14 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\adity\\source\\repos\\Number_System\\",
+  "WorkspaceRootPath": "C:\\Users\\adity\\source\\repos\\New folder\\Number_System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|Number_System.vbproj|c:\\users\\adity\\source\\repos\\number_system\\vision_system.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
-      "RelativeMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|Number_System.vbproj|solutionrelative:vision_system.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+      "AbsoluteMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|WITHOUT.vbproj|c:\\users\\adity\\source\\repos\\new folder\\number_system\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|WITHOUT.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|Number_System.vbproj|C:\\Users\\adity\\source\\repos\\Number_System\\vision_system.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
-      "RelativeMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|Number_System.vbproj|solutionrelative:vision_system.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+      "AbsoluteMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|WITHOUT.vbproj|c:\\users\\adity\\source\\repos\\new folder\\number_system\\form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|WITHOUT.vbproj|solutionrelative:form2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|WITHOUT.vbproj|c:\\users\\adity\\source\\repos\\new folder\\number_system\\excel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{2891BEDA-DD7E-403C-91ED-A860AF4A482E}|WITHOUT.vbproj|solutionrelative:excel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Vision_System.vb",
-              "DocumentMoniker": "C:\\Users\\adity\\source\\repos\\Number_System\\Vision_System.vb",
-              "RelativeDocumentMoniker": "Vision_System.vb",
-              "ToolTip": "C:\\Users\\adity\\source\\repos\\Number_System\\Vision_System.vb",
-              "RelativeToolTip": "Vision_System.vb",
-              "ViewState": "AQIAAMUAAAAAAAAAAAASwNUAAAAIAAAA",
+              "DocumentIndex": 0,
+              "Title": "Form2.vb",
+              "DocumentMoniker": "C:\\Users\\adity\\source\\repos\\New folder\\Number_System\\Form2.vb",
+              "RelativeDocumentMoniker": "Form2.vb",
+              "ToolTip": "C:\\Users\\adity\\source\\repos\\New folder\\Number_System\\Form2.vb",
+              "RelativeToolTip": "Form2.vb",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAQwA8AAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-20T10:17:38.378Z",
+              "WhenOpened": "2024-08-31T10:26:57.048Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Vision_System.vb [Design]",
-              "DocumentMoniker": "C:\\Users\\adity\\source\\repos\\Number_System\\Vision_System.vb",
-              "RelativeDocumentMoniker": "Vision_System.vb",
-              "ToolTip": "C:\\Users\\adity\\source\\repos\\Number_System\\Vision_System.vb [Design]",
-              "RelativeToolTip": "Vision_System.vb [Design]",
+              "DocumentIndex": 1,
+              "Title": "Form2.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\adity\\source\\repos\\New folder\\Number_System\\Form2.vb",
+              "RelativeDocumentMoniker": "Form2.vb",
+              "ToolTip": "C:\\Users\\adity\\source\\repos\\New folder\\Number_System\\Form2.vb [Design]",
+              "RelativeToolTip": "Form2.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2024-07-20T10:17:36.635Z",
+              "WhenOpened": "2024-08-31T10:26:55.469Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EXCEL.vb [Design]",
+              "DocumentMoniker": "C:\\Users\\adity\\source\\repos\\New folder\\Number_System\\EXCEL.vb",
+              "RelativeDocumentMoniker": "EXCEL.vb",
+              "ToolTip": "C:\\Users\\adity\\source\\repos\\New folder\\Number_System\\EXCEL.vb [Design]",
+              "RelativeToolTip": "EXCEL.vb [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-08-31T10:26:54.696Z",
               "EditorCaption": " [Design]"
             }
           ]

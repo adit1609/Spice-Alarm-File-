@@ -63,3 +63,4 @@ C:\Users\adity\source\repos\Number_System\bin\Debug\AForge.Video.DirectShow.dll
 C:\Users\adity\source\repos\Number_System\bin\Debug\AForge.Video.DirectShow.xml
 C:\Users\adity\source\repos\Number_System\obj\Debug\Number_System.DataSending.resources
 C:\Users\adity\source\repos\Number_System\obj\Debug\Number_System.Form9.resources
+C:\Users\adity\source\repos\Number_System\obj\Debug\Number_System.Form10.resources
